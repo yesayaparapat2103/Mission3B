@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login -Chill App</title>
+    <link rel="shortcut icon" 
+    href="./images/logo-icon.png" 
+    type="image/x-icon">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <main class="login-container">
+        <div class="login-box">
+            <img src="./images/Logo.png" alt="logo "id="logo">
+            <div class="login-text">
+                <h1>Masuk</h1>
+                <p>Selamat Datang Kembali!</p>
+            </div>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Masukkan username" 
+                    name="username" 
+                    id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" 
+                    placeholder="Masukkan password" 
+                    name="password" 
+                    id="password" required>
+                    <img src="./images/icon-mata.png" alt="icon mata">
+                </div>
+                <div class="bottom-form">
+                    <p>Belum punya akun? <a href="/register.html">Daftar</a></p>
+                    <a href="#">Lupa Kata sandi?</a>
+                </div>
+                <div class="button-container">
+                    <button type="submit" class="btn-login">Masuk</button>
+                    <p>Atau</p>
+                    <button type="button" class="btn-login google-login-button" ><img src="./images/logogoogle.png" alt="logo google"> <p>Masuk dengan Google</p></button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
