@@ -518,7 +518,8 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: none; /* Berdasarkan gambar 1 mobile, link tidak terlihat secara default */
+    display: none;
+    /* Berdasarkan gambar 1 mobile, link tidak terlihat secara default */
 }
 
 .footer-links li a {
@@ -645,7 +646,6 @@ footer {
 
     .movie-sections-container {
         gap: 80px;
-        /* Jarak antar bagian di Desktop */
         padding: 0 80px;
     }
 
@@ -685,45 +685,45 @@ footer {
         height: 162px;
         margin-left: 10px;
     }
-    
-    .card-rating{
+
+    .card-rating {
         width: 234px;
         height: 365px;
     }
 
-    .card-rating img{
+    .card-rating img {
         width: 234px;
         height: 365px;
     }
 
-    .title-section{
+    .title-section {
         margin-left: 20px;
         font-size: 32px;
     }
 
     .card-overlay-trending {
-    position: absolute;
-    bottom: 0;
-    right: 6px;
-    top: 0;
-    z-index: 2;
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+        top: 0;
+        z-index: 2;
     }
 
     .card-overlay-trending .card-title {
-    display: flex;
-    flex-direction: column;
-    background-color: #B71F1D;
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 140%;
-    letter-spacing: px;
-    font-weight: 400;
-    font-family: 'Lato';
-    align-items: center;
-    justify-content: center;
-    padding: 10px 7px;
-    border-radius: 0 4px 0 4px;
-    text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #B71F1D;
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 140%;
+        letter-spacing: px;
+        font-weight: 400;
+        font-family: 'Lato';
+        align-items: center;
+        justify-content: center;
+        padding: 10px 7px;
+        border-radius: 0 4px 0 4px;
+        text-align: center;
     }
 
     .card-overlay-trending .card-title br+text {
@@ -740,10 +740,8 @@ footer {
     }
 
 
-    .continue-watching.continue-rating.continue-rilis-desktop {
-        margin-bottom: 130px;
-    }
-    
+   
+
 
     .scroll-btn {
         position: absolute;
@@ -781,6 +779,7 @@ footer {
 
     /* Responsive Footer Styles */
     footer {
+        margin-top: 130px;
         padding: 60px 80px;
         border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
